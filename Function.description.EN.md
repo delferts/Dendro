@@ -1,6 +1,14 @@
 Functions
 ====
 
+pointer.year(x)
+------
+
+Function calculated stand Pointer-year values from values of each tree, comparing year increment with previous five years  mean increment. Pointer-year clases are determined in 20% steps. 
+
+As input argument one data frame in given. First column of data frame should contain year values and rest columns contain tree-ring width measurements.
+
+
 trans.wd.R(file,r.par="RINGWIDTH")
 -------
 
