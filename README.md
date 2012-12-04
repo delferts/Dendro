@@ -10,7 +10,7 @@ Funkciju apraksts pieejams failā [Funkciju.apraksts.LV.md](https://github.com/d
 Overview of repository
 ===
 
-This repository contains my R function for different tasks in Dendroecology and Dendrochronology.  
+This repository  contains my R function for different tasks in Dendroecology and Dendrochronology.  
 
 Functions .R files can be found in directory [R](https://github.com/delferts/Dendro/tree/master/R)
 
