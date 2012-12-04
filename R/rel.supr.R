@@ -1,4 +1,4 @@
-rel.supr<-function(ozols,sliek){
+rel.supr<-function(,sliek=0.5){
 ozols<-ozols
 x<-ozols[,-1]
 y<-list()
