@@ -8,6 +8,16 @@ Funkcija aprēķina audzes Pointer-year vērtības no atsevišķu koku vērtīb�
 
 Funkcijai jānorāda datu tabulu, kurā pirmajā kolonnā ir gads un pārējās kolonnās ir gadskārtu vērtības.
 
+
+rel.supr(gadsk,sliek=0.5)
+------
+
+Funkcija veic Release-Supression analīzi salīdzinot pieaugumu 10 gados (pirmais perioda gads sakrīt ar gadu, kuram apŗēķina) ar iepriekšējo 10 gadu vidējo pieaugumu.
+
+Funkcijai kā argumenti jānorāda datu tabula, kurā pirmajā kolonnā ir gads un pārējās kolonnās ir gadskārtu vērtības. Kā papildus arguments jānorāda slieksnis (izteikts decimālskaitļos), pie kura izmaiņas ir uzskatāmas par būtiskām (noklusētā vērtība ir 0.5 jeb 50%).
+
+Rezultātā ir datu tabulu ar kolonnām: (a) gads - gada vērtība; (b) poz.sk - koku skaits, kas uzrāda pozitīvu pieaugumu konkrētajā gadā; (c) poz.proc - proporcija no kokiem, kas uzrāda pozitīvu pieaugumu; (d) neg.sk - koku skaits, kas uzrāda negatīvu pieaugumu konkrētajā gadā; (e) neg.proc - proporcija no kokiem, kas uzrāda negatīvu pieaugumu; (f) kopa.koki - koku skaits, kas konkrētajā gadā iekļauti analīzē.
+
 trans.wd(file,r.par="RINGWIDTH")
 -------
 
