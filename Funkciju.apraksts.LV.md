@@ -1,7 +1,14 @@
 Funkcijas
 ====
 
-trans.wd.R(file,r.par="RINGWIDTH")
+pointer.year(x)
+------
+
+Funkcija aprēķina audzes Pointer-year vērtības no atsevišķu koku vērtībām, salīdzinot konkrētē gada pieaugumu ar iepriekšējo piecu gadu vidējo pieaugumu. Vērtību klases tiek dalītas ik pa 20%.
+
+Funkcijai jānorāda datu tabulu, kurā pirmajā kolonnā ir gads un pārējās kolonnās ir gadskārtu vērtības.
+
+trans.wd(file,r.par="RINGWIDTH")
 -------
 
 Funkcija pārveido WinDendro radītos .txt failus par datu tabulu, kurā pirmajā kolonnā ir gads, bet visās pārējās kolonnās ir
