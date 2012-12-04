@@ -5,7 +5,7 @@ Par krātuvi
 
 Funckciju .R failus var atrast direktorijā [R](https://github.com/delferts/Dendro/tree/master/R)
 
-Funkciju apraksts pieejams failā [Funkciju.apraksts.LV.pdf]
+Funkciju apraksts pieejams failā [Funkciju.apraksts.LV.md](https://github.com/delferts/Dendro/blob/master/Funkciju.apraksts.LV.md)
 
 Overview of repository
 ===
@@ -14,7 +14,7 @@ This repository contains my R function for different tasks in Dendroecology and 
 
 Functions .R files can be found in directory [R](https://github.com/delferts/Dendro/tree/master/R)
 
-Description of functions is available in [Funkciju.apraksts.EN.pdf]
+Description of functions is available in [Function.description.EN.md](https://github.com/delferts/Dendro/blob/master/Function.description.EN.md)
 
 
 **License**   
