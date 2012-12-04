@@ -1,0 +1,20 @@
+pointer.year<-function(x){
+  rob<-c(-100,-0.8,-0.6,-0.4,-0.2,0,0.2,0.4,0.6,0.8,100)
+  bez.gada<-as.matrix(x[,-1])
+  pag<-bez.gada
+  pag[1:5,]<-NA
+  jt<-as.vector(pag)
+  
+  for(t in 1:ncol(bez.gada)){
+    for(i in 6:nrow(bez.gada)){
+      jt[i+(t-1)*nrow(bez.gada)]<-(bez.gada[i,t]-mean(bez.gada[(i-5):(i-1),t]))/mean(bez.gada[(i-5):(i-1),t])+0.0000000000000000000000000000000000001
+    }
+  }
+  jt<-findInterval(jt,rob)
+  jt<-matrix((ifelse(jt>=6,jt+1,jt)-6),ncol=ncol(bez.gada))
+  
+  point<-c(NA,NA,NA,NA,NA,20*apply(jt[-(1:5),],1,mean,na.rm=TRUE))
+  point.gads<-data.frame(cbind(x[,1],point))
+  colnames(point.gads)<-c("gads","indekss")
+  point.gads
+}
