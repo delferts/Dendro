@@ -8,7 +8,6 @@ trans.wd<-function(file,r.par="RINGWIDTH"){
    saraksts.rp[[dati.rp[i,1]]]<-data.frame((dati.rp[i,4]-length(g)+1):(dati.rp[i,4]),g) 
    colnames(saraksts.rp[[dati.rp[i,1]]])<-c("gads",dati.rp[i,1]) 
 }
-
 tab.rp<-saraksts.rp[[1]] 
 for(i in 2:length(saraksts.rp)){ 
   tab.rp<-merge(tab.rp,saraksts.rp[[i]],by="gads",all=TRUE)
