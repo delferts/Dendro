@@ -1,5 +1,5 @@
-rel.supr<-function(,sliek=0.5){
-ozols<-ozols
+rel.supr<-function(gadsk,sliek=0.5){
+gadsk<-ozols
 x<-ozols[,-1]
 y<-list()
 for(i in 1:ncol(x)){
