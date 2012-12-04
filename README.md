@@ -7,6 +7,8 @@ Funckciju .R failus var atrast direktorijā [R](https://github.com/delferts/Dend
 
 Funkciju apraksts pieejams failā [Funkciju.apraksts.LV.md](https://github.com/delferts/Dendro/blob/master/Funkciju.apraksts.LV.md)
 
+Veiktās izmaiņas pa dienām pieejamas failā [Izmainas.md](https://github.com/delferts/Dendro/blob/master/Izmainas.md)
+
 Overview of repository
 ===
 
@@ -16,6 +18,7 @@ Functions .R files can be found in directory [R](https://github.com/delferts/Den
 
 Description of functions is available in [Function.description.EN.md](https://github.com/delferts/Dendro/blob/master/Function.description.EN.md)
 
+Description of changes is available in [Changes.md](https://github.com/delferts/Dendro/blob/master/Changes.md)
 
 **License**   
 This work is licensed under the Creative Commons Attribution-NonCommercial-Share Alike 3.0 License.
