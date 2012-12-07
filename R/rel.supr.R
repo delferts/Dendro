@@ -22,7 +22,7 @@ p.pr<-round(p.sk/kopa,3)
 n.pr<-round(n.sk/kopa,3)
 
 
-gals<-data.frame(ozols[,1],p.sk,p.pr,n.sk,n.pr,kopa)
+gals<-data.frame(gadsk[,1],p.sk,p.pr,n.sk,n.pr,kopa)
 
 colnames(gals)<-c("gads","poz.sk","poz.proc","neg.sk","neg.proc","kopa.koki")
 gals
