@@ -1,6 +1,5 @@
 rel.supr<-function(gadsk,sliek=0.5){
-gadsk<-ozols
-x<-ozols[,-1]
+x<-gadsk[,-1]
 y<-list()
 for(i in 1:ncol(x)){
 z<-x[,i]
