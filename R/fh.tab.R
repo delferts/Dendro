@@ -1,4 +1,4 @@
-fh.tab<-function(fails){
+fh.tab<-function(fails,start="bark"){
 gg=readLines(fails)
 header.begin <- grep("^HEADER:$", gg)
 header.end <- grep("^DATA:(Tree|Single)$", gg)
@@ -39,7 +39,9 @@ for(i in 1:length(header.begin)){
   mes.nb<-as.numeric(gsub("\\D", "", unlist(strsplit(mes.all," "))))
   mes.nb<-mes.nb[!is.na(mes.nb)]
   mes.nb<-mes.nb[1:as.numeric(Length[i])]
-  gd.tab<-data.frame((as.numeric(DateEnd[i]):(as.numeric(DateEnd[i])-as.numeric(Length[i])+1)),mes.nb)
+  ifelse(start=="bark",
+         gd.tab<-data.frame((as.numeric(DateEnd[i]):(as.numeric(DateEnd[i])-as.numeric(Length[i])+1)),mes.nb),
+         gd.tab<-data.frame(((as.numeric(DateEnd[i])-as.numeric(Length[i])+1):as.numeric(DateEnd[i])),mes.nb))
   colnames(gd.tab)<-c("gads",KeyCode[i])
   gadsk.list[[i]]<-gd.tab
 }
