@@ -28,9 +28,9 @@ Funkcijai jānorāda divi parametri - faila nosaukums (pēdiņās), kurā ir mē
 
 Šobrīd funkcija var strādāt tikai ar 3.versijas WinDendro failiem.
 
-fh.tab(fails)
+fh.tab(fails,start="bark")
 -------
 
 Funkcija pārveido TSAP mērījumu failu (.fh) par .txt failu, kas automātiski tiek saglabāts darba direktorijā. Katra gadskārtu rinda veido vienu rindu jaunajā failā. 
 
-Šobrīd funkcija pieņem, ka mērījumi ir veikti virzienā no mizas uz centru.
+Pēc noklusējama tiek pieņemts, ka mērījumi ir veikti virzienā no mizas uz centru. Ja ir pretēji, tad papildus jānorāda arguments start="pith".
