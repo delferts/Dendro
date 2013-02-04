@@ -4,10 +4,10 @@ Izmaiņas
 ------
 
 Pievienotas jaunas funkcijas:
-*fh.tab.R
+* fh.tab.R
 
 Pievienoti jauni funkciju apraksti:
-*fh.tab.R
+* fh.tab.R
 
 
 04.12.2012.
