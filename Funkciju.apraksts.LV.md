@@ -27,3 +27,10 @@ gadskārtu rindu dati.
 Funkcijai jānorāda divi parametri - faila nosaukums (pēdiņās), kurā ir mērījumu dati, kā arī parametrs (r.par=), kuram veidot datu tabulu. Ja parametra veids netiks norādīts, tad automātiski tabula tiks veidota "RINGWIDTH", bet ir iespējams norādīt arī "EARLYWIDTH" un "LATEWIDTH".
 
 Šobrīd funkcija var strādāt tikai ar 3.versijas WinDendro failiem.
+
+fh.tab(fails)
+-------
+
+Funkcija pārveido TSAP mērījumu failu (.fh) par .txt failu, kas automātiski tiek saglabāts darba direktorijā. Katra gadskārtu rinda veido vienu rindu jaunajā failā. 
+
+Šobrīd funkcija pieņem, ka mērījumi ir veikti virzienā no mizas uz centru.
