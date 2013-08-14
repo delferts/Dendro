@@ -1,4 +1,4 @@
-Par krātuvi
+Par paketi Dendro
 ===
 
 Pakete Dendro satur manis veidotas R funkcijas, kas var tikt izmantotas, lai veiktu dažādus uzdevumus Dendroekoloģijas un Dendrohronoloģijas jomā.
