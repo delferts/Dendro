@@ -1,4 +1,4 @@
-fh.tab<-function(fails,start="bark"){
+`fh.tab`<-function(fails,start="bark"){
 gg=readLines(fails)
 header.begin <- grep("^HEADER:$", gg)
 header.end <- grep("^DATA:(Tree|Single)$", gg)
