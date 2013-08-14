@@ -10,7 +10,7 @@ library(devtools)
 install_github('Dendro', 'delferts')
 ```
 
-Funkciju apraksts pieejams failā [Funkciju.apraksts.LV.md](https://github.com/delferts/Dendro/blob/master/Funkciju.apraksts.LV.md)
+Paketes funkciju apraksts pieejams failā [Funkciju.apraksts.LV.md](https://github.com/delferts/Dendro/blob/master/Funkciju.apraksts.LV.md)
 
 Veiktās izmaiņas pa dienām pieejamas failā [Izmainas.md](https://github.com/delferts/Dendro/blob/master/Izmainas.md)
 
