@@ -1,0 +1,7 @@
+Package: Dendro
+Title: Function to work with dendro data
+Description: 
+Version: 0.1
+Author: Didzis Elferts <didzis.elferts@lu.lv>
+Maintainer: Didzis Elferts <didzis.elferts@lu.lv>
+License: GPL-2
