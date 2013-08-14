@@ -1,5 +1,9 @@
 Izmaiņas
 ========================================================
+14.08.2013.
+------
+Visas funkcijas apvienotas viena pakete, un tagad instalejas un izmantojamas ka citas paketes.
+
 04.02.2013.
 ------
 
