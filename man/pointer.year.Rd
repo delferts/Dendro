@@ -1,5 +1,5 @@
 \name{pointer.year}
-\alias(pointer.year)
+\alias{pointer.year}
 \description{Calculates stand Pointer-year values for each tree}
 \usage{
   pointer.year(x)
