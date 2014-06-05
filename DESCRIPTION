@@ -2,8 +2,9 @@ Package: Dendro
 Type: Package
 Title: Functions to work with dendro data
 Version: 0.1
-Date: 14 August 2013
+Date: 2013-08-01
 Author: Didzis Elferts
 Maintainer: Didzis Elferts <didzis.elferts@lu.lv>
 Description: Functions to work with dendro data.
 License: GPL-2
+URL: http://github.com/delferts/Dendro
