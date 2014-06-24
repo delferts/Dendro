@@ -1,3 +1,15 @@
+#' Calculate pointer-year values from raw tree-ring widths
+#' 
+#'  This function takes object of raw tree-ring widths measuraments and calculates stand pointer-year 
+#'  values for each year of original data.
+#'  
+#'  @param x a data frame with year values in the first column and raw tree ring measuraments in all other columns
+#'  @usage pointer.year(x)
+#'  @return A data frame with year values in the first column and the calculated stand pointer-year values in the second column
+#'  @examples
+#'  data(ozols)
+#'  point<-pointer.year(ozols)
+#'  point[1:10,]   
 pointer.year<-function(x){
   rob<-c(-100,-0.8,-0.6,-0.4,-0.2,0,0.2,0.4,0.6,0.8,100)
   bez.gada<-as.matrix(x[,-1])
