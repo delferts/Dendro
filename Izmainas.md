@@ -1,5 +1,9 @@
 Izmaiņas
 ========================================================
+27.06.2014.
+------
+Visām funkcijām pievienoti palīdzības faili
+
 14.08.2013.
 ------
 Visas funkcijas apvienotas viena pakete, un tagad instalejas un izmantojamas ka citas paketes.

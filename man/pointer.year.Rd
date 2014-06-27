@@ -9,10 +9,10 @@ pointer.year(x)
 \item{x}{a data frame with year values in the first column and raw tree ring measuraments in all other columns}
 }
 \value{
-a data frame with year values in the first column and the calculated stand pointer-year values in the second column
+A data frame with year values in the first column and the calculated stand pointer-year values in the second column
 }
 \description{
-This function takes object of raw tree-ring widths measuraments and calculates site pointer-year
+This function takes object of raw tree-ring widths measuraments and calculates stand pointer-year
  values for each year of original data.
 }
 \examples{
