@@ -1,6 +1,6 @@
 #' Transform WinDendro measurament file of version 3
 #' 
-#'  This function takes measurament file of WinDendro programm (version 3 file) and extracts measuraments,
+#'  This function takes measurament file of WinDendro programm (version 3 files only at this point) and extracts measuraments,
 #'  years and names, and makes data frame where each tree-ring width series are in seperate column.
 #'  
 #'  @param file a name of WinDendro file

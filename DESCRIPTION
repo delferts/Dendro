@@ -8,3 +8,4 @@ Maintainer: Didzis Elferts <didzis.elferts@lu.lv>
 Description: Functions to work with dendro data.
 License: GPL-2
 URL: http://github.com/delferts/Dendro
+RoxygenNote: 5.0.1
